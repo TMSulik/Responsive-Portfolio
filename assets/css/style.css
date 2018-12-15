@@ -81,29 +81,30 @@ p {
 
 }
 
-.primary-nav {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
-  margin-right: 226px;
-
-}
-
 /*
   ========================================
   Navigation
   ========================================
 */
 
+.primary-nav {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-right: 226px;
+}
+
 .nav {
   text-align: right;
 }
+
 .nav li {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
 }
+
 .nav li:last-child {
   margin-right: 0;
 }
@@ -140,6 +141,7 @@ p {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 .container,
 .main {
   margin: 0 auto;
@@ -148,7 +150,7 @@ p {
 
 section {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   background: #648880;
   width: 100%;
   border: 4px solid #000;
@@ -208,7 +210,8 @@ p {
 #portrait {
   float: left;
   padding: 0px 20px;
-  inline-size: 25%;
+  width: 680px;
+  inline-size: 40%;
 }
 
 .preview {
@@ -343,4 +346,45 @@ textarea {
 
 .send-email textarea {
   height: 150px;
+}
+
+/*
+  ========================================
+  Media queries
+  ========================================
+*/
+
+@media only screen and (max-width: 980px) {
+  .container,
+  .main {
+    width: 768px;
+  }
+  #portrait {
+    float: left;
+    padding: 0px 20px;
+    width: 480px;
+    inline-size: 54%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav li {
+    display: block;
+    margin: -36px 0 -36px 0;
+  }
+  #footer-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .container,
+  .main {
+    width: 640px;
+  }
+  #portrait {
+    float: left;
+    padding: 0px 20px;
+    width: 640px;
+    inline-size: 100%;
+    margin-bottom: 20px;
+  }
 }
