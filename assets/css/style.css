@@ -1,59 +1,48 @@
-
 /*
   ========================================
   Custom styles
   ========================================
 */
-
 html,
 body {
   height: 100%;
 }
-
 body {
   background-image: url('../images/morocco-blue.png');
   display: flex;
   flex-direction: column;
 }
-
 .container {
   flex: 1 0 auto;
 }
-
 .footer {
   flex-shrink: 0;
 }
-
 /*
   ========================================
   Typography
   ========================================
 */
-
 h1 {
   color: white;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-size: 26px;
 }
-
 h2, h3, h4 {
   color: black;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
 }
-
 p {
   color: black;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
 }
-
 /*
   ========================================
   Primary header
   ========================================
 */
-
 #logo {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 38px;
@@ -69,7 +58,6 @@ p {
   margin-top: -86px;
   margin-left: 206px;
 }
-
 .banner {
   line-height: 67px;
   padding: 20px;
@@ -78,43 +66,36 @@ p {
   margin-left: -226px;
   margin-right: -226px;
   border-bottom: 4px solid #648880;
-
 }
-
 /*
   ========================================
   Navigation
   ========================================
 */
-
 .primary-nav {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
   margin-right: 226px;
+  /* float: right; */
 }
-
 .nav {
   text-align: right;
 }
-
 .nav li {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
 }
-
 .nav li:last-child {
   margin-right: 0;
 }
-
 /*
   ========================================
   Clearfix
   ========================================
 */
-
 .group:before,
 .group:after {
   content: "";
@@ -127,13 +108,11 @@ p {
   clear: both;
   *zoom: 1;
 }
-
 /*
   ========================================
   Main Section
   ========================================
 */
-
 *,
 *:before,
 *:after {
@@ -141,21 +120,18 @@ p {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 .container,
 .main {
   margin: 0 auto;
   width: 960px;
 }
-
 section {
   padding: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   background: #648880;
   width: 100%;
   border: 4px solid #000;
 }
-
 hr {
   display: block;
   height: 1px;
@@ -164,12 +140,10 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
 p {
   margin-top: 0em;
   margin-bottom: 2em;
 }
-
 #left {
   float: left;
   width: 20%;
@@ -180,57 +154,47 @@ p {
   width: 20%;
   height: 100px;
 }
-
 #first {
   float: left;
   width: 25%;
 }
-
 #second {
   float: left;
   width: 25%;
 }
-
 #third {
   float: left;
   width: 25%;
 }
-
 #fourth {
   float: left;
   width: 25%;
 }
-
 /*
   ========================================
   Images
   ========================================
 */
-
 #portrait {
   float: left;
   padding: 0px 20px;
   width: 680px;
   inline-size: 40%;
 }
-
 .preview {
   float: left;
-  padding: 0px 20px;
+  padding: 20px;
   margin-bottom: 20px;
-  inline-size: 240px;
+  inline-size: 220px;
 }
-
 #stretch {
   height: 10px;
 }
-
 /*
   ========================================
   Links
   ========================================
 */
-
 a {
   color: #648880;
   text-decoration: none;
@@ -249,13 +213,11 @@ p a {
 .primary-footer a:hover {
   color: #648880;
 }
-
 /*
   ========================================
   Primary footer
   ========================================
 */
-
 .primary-footer {
   color: #87cefa; /* light sky blue */
   font-size: 14\6px;
@@ -267,20 +229,25 @@ p a {
   border-top: 4px solid #648880;
   width: 100%;
 }
-
 .primary-footer small {
   float: left;
   font-weight: 200;
-
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red;
+  color: white;
+  text-align: center; */
+} */
 /*
   ========================================
   Buttons
   ========================================
 */
-
 .btn {
   border-radius: 5px;
   color: #87cefa;
@@ -289,12 +256,10 @@ p a {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-}
-.btn2 {
   margin-left: 20px;
 }
 .btn-default {
-  border: 0;
+  border: 10px;
   background: #293f50; /* pickled bluewood */
   padding: 11px 30px;
   font-size: 20px;
@@ -310,26 +275,22 @@ p a {
   background: #fff;
   color: #648880;
 }
-
 /*
   ========================================
   Contact
   ========================================
 */
-
 input,
 textarea {
   font-weight: 400;
   font-size: 20px;
 }
-
 .send-email label {
   color: #black;
   cursor: pointer;
   font-weight: 600;
   font-size: 26px;
 }
-
 .send-email input,
 .send-email textarea {
   border: 1px solid black;
@@ -343,17 +304,14 @@ textarea {
 .send-email textarea {
   width: 100%;
 }
-
 .send-email textarea {
   height: 150px;
 }
-
 /*
   ========================================
   Media queries
   ========================================
 */
-
 @media only screen and (max-width: 980px) {
   .container,
   .main {
@@ -365,8 +323,25 @@ textarea {
     width: 480px;
     inline-size: 54%;
   }
-}
+  #first {
+    width: 20%;
+    margin: 20px;
+  }
+  #second {
+    width: 20%;
+    margin: 20px;
 
+  }
+  #third {
+    width: 20%;
+    margin: 20px;
+  }
+  #fourth {
+    width: 20%;
+    margin: 20px;
+
+  }
+}
 @media only screen and (max-width: 768px) {
   .nav li {
     display: block;
@@ -386,5 +361,9 @@ textarea {
     width: 640px;
     inline-size: 100%;
     margin-bottom: 20px;
+  }
+  #first {
+    float: left;
+    width: 15%;
   }
 }

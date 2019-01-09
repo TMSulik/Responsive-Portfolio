@@ -1,78 +1,70 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Student Bio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
-    <!-- bootstrap
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    -->
 </head>
 
 <body>
     <!-- Header -->
-    <header class="primary-header container group">
-        <div class="banner">
-        <!--
-        <div class="name">
-            <a>Thomas Martin <br> Sulik</a>
-        -->
-        <nav class="nav primary-nav">   
+    <header class="primary-header container">
+      <div class="banner">
+        <nav class="nav primary-nav">
             <ul>
               <li><a href="index.html">About</a></li><!--
               --><li><a href="portfolio.html">Portfolio</a></li><!--
               --><li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
-          <!--
-        </div>
-        -->
         <div id="logo">Thomas Martin <br> Sulik</div>
-    </div>
+      </div>
     </header>
-    <br> 
-
+    <br>
     <!-- Main content -->
     <div class = "container">
-        <section class="main group">
-            <h1>Portfolio</h1>
-            <hr/>    
-            <div id="first">
-                <img class="preview" src="assets/images/Horror.png" alt="Scary app">  
-                <input class="btn btn-default btn2" type="submit" name="submit" value="RetroTerror">
-            </div>
-            <div id="second">    
-                <img class="preview" src="assets/images/MicRoom.png" alt="Recording app">  
-                <br>    
-                <input class="btn btn-default btn2" type="submit" name="submit" value="Podcaster">
-                <br> 
-            </div>
-            <div id="third">
-                <img class="preview" src="assets/images/MusicComposer.png" alt="Song writing app"> 
-                <input class="btn btn-default btn2" type="submit" name="submit" value="Songwriter">
-            </div>
-            <div id="fourth">
-                <img class="preview" src="assets/images/Nihongo.png" alt="Japanese app">  
-                <input class="btn btn-default btn2" type="submit" name="submit" value="Translator">
-            </div>
-        </section>
+      <section class="main">
+        <h1>Portfolio</h1>
+        <hr/>
+        <div class="row group">
+          <!-- <div class="col-lg-3"> -->
+          <div id="first">
+            <img class="preview" src="assets/images/Thinker.jpg" alt="Scary app">
+            <input class="btn btn-default" type="submit" name="submit" value="Word Guess">
+          </div>
+          <!-- <div class="col-lg-3"> -->
+          <div id="second">
+            <img class="preview" src="assets/images/Horror.png" alt="Recording app">
+            <input class="btn btn-default" type="submit" name="submit" value="Podcaster">
+          </div>
+          <!-- <div class="col-lg-3"> -->
+          <div id="third">
+            <img class="preview" src="assets/images/Horror.png" alt="Song writing app">
+            <input class="btn btn-default" type="submit" name="submit" value="Songwriter">
+          </div>
+          <!-- <div class="col-lg-3"> -->
+          <div id="fourth">
+            <img class="preview" src="assets/images/Horror.png" alt="Japanese app">
+            <input class="btn btn-default" type="submit" name="submit" value="Translator">
+          </div>
+        </div>
+      </section>
     </div>
-
     <!-- Footer -->
-    <footer class="primary-footer footer">
-        <small>&copy; Copyright 2018, T.M. Sulik Promotions, LLC</small>
-            <nav class="nav" id="footer-nav">
-              <ul>
-                <li><a href="index.html">About</a></li><!--
-                --><li><a href="portfolio.html">Portfolio</a></li><!--
-                --><li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
+    <footer class="primary-footer footer group">
+      <small>&copy; Copyright 2018, T.M. Sulik Promotions, LLC</small>
+      <nav class="nav" id="footer-nav">
+        <ul>
+          <li><a href="index.html">About</a></li><!--
+          --><li><a href="portfolio.html">Portfolio</a></li><!--
+          --><li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </footer>
 </body>
 
